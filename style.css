@@ -93,6 +93,12 @@ canvas {
     border-radius:1rem;
 }
 
+#projects{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
 #projects a{
     color:white;
 }
