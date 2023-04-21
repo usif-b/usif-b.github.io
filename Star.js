@@ -2,7 +2,7 @@ export default class Star{
     constructor(screenWidth, screenHeight){
         this.screenWidth = screenWidth;
         this.screenHeight = screenHeight;
-        this.speed = 20;
+        this.speed = 150;
         this.position = {
             x: Math.floor(Math.random()*screenWidth),
             y: Math.floor(Math.random()*screenHeight)

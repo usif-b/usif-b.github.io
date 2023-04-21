@@ -18,7 +18,7 @@ export default class Background {
     slowStars(){
         for(let i = 0; i<this.stars.length; i++){
             if(this.stars[i].speed > 5){
-                this.stars[i].speed -= 0.1;
+                this.stars[i].speed --;
             }
         }
     }
